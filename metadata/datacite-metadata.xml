@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4
+                              http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+
+  <identifier identifierType="DOI">10.5281/zenodo.18394095</identifier>
+
+  <creators>
+    <creator>
+      <creatorName>Poulsen, Victor Møller</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0002-2366-9351
+      </nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName>Spicer, Rachel</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0002-2807-8796
+      </nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName>Slingerland, Edward</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0001-6717-7765
+      </nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName>Muthukrishna, Michael</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0002-7079-5166
+      </nameIdentifier>
+    </creator>
+    <creator>
+      <creatorName>Monroe, M. Willis</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">
+        https://orcid.org/0000-0002-9126-2991
+      </nameIdentifier>
+    </creator>
+  </creators>
+
+  <titles>
+    <title>Standard Cross-Cultural Sample of Religion</title>
+  </titles>
+
+  <version>3.0.0</version>
+
+  <publisher publisherIdentifier="https://viaf.org/en/viaf/6474158070758608780003" publisherIdentifierScheme="VIAF">Database of Religious History</publisher>
+  <publicationYear>2026</publicationYear>
+
+  <resourceType resourceTypeGeneral="Dataset">Qualitative-quantitative database</resourceType>
+
+  <subjects>
+    <subject>History</subject>
+    <subject>Religion</subject>
+    <subject>Cross-Cultural</subject>
+  </subjects>
+
+  <language>en</language>
+
+  <dates>
+    <date dateType="Issued">2026-01-27</date>
+  </dates>
+
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="HasVersion">
+      https://github.com/religionhistory/SCCSR
+    </relatedIdentifier>
+  </relatedIdentifiers>
+
+  <formats>
+    <format>text/csv</format>
+    <format>application/zip</format>
+  </formats>
+
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/">
+      Creative Commons Attribution 4.0 International (CC BY 4.0)
+    </rights>
+  </rightsList>
+
+  <descriptions>
+    <description descriptionType="Abstract">
+      The Standard Cross-Cultural Sample of Religion is a cross-cultural relational dataset derived from the Database of Religious History (DRH). It provides expert-coded responses to standardized questions across entries, regions, and time ranges to support comparative historical analysis.
+    </description>
+
+    <description descriptionType="Methods">
+      Data are exported from the DRH as relational CSV tables. Core tables include answerset, entry metadata, region definitions with GIS multipolygons, hierarchical entity tags, question relationships, and editorial recoding tables for literacy and social complexity variables.
+    </description>
+
+    <description descriptionType="Other">
+      Tabular contents include: answerset.csv, entry_data.csv, region_data.csv, entity_tags.csv, questionrelation.csv, literacy_recode.csv, social_complexity_recode.csv and associated codebooks. Answers may vary by expert, region, and time range and are linked by standardized identifiers.
+    </description>
+  </descriptions>
+
+</resource>
