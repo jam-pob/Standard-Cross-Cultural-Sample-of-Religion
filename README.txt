@@ -6,7 +6,7 @@ There are two files inside the repository's metadata folder. See documentation b
 
 An XML file structured according to the Datacite metadata schema: http://schema.datacite.org
 Microsoft CoPilot was used to assist in generating the this file. 
-The XML output was validated against datacite's XSD file (https://schema.datacite.org/meta/kernel-4.6/metadata.xsd) using VS Code's XML extension (XML Language Support by Red Hat) then manually enhanced and checked for accuracy.
+The XML output was validated against Datacite's schema (https://schema.datacite.org/meta/kernel-4.6/metadata.xsd) using VS Code's XML extension (XML Language Support by Red Hat) then manually enhanced and checked for accuracy.
 
 ## FinalReport.pdf
 
@@ -229,4 +229,5 @@ The answer value coding of catergorical questions without `Yes`, `No`, `Field do
 5 | Large-scale agriculture [organized irrigation systems, etc.]
 6 | Small-scale agriculture / horticultural gardens or orchards
 6 | Large-scale agriculture [organized irrigation systems, etc.]
+
 7 | Large-scale agriculture (e.g., monocropping, organized irrigation systems)
